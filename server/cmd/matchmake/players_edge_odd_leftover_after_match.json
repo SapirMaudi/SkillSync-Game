@@ -1,0 +1,52 @@
+[
+  {
+    "player_id": 401,
+    "name": "odd_pair1_a",
+    "kills": 50,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 35
+  },
+  {
+    "player_id": 402,
+    "name": "odd_pair1_b",
+    "kills": 52,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 34
+  },
+  {
+    "player_id": 403,
+    "name": "odd_pair2_a",
+    "kills": 100,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 33
+  },
+  {
+    "player_id": 404,
+    "name": "odd_pair2_b",
+    "kills": 103,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 32
+  },
+  {
+    "player_id": 405,
+    "name": "odd_leftover_high",
+    "kills": 500,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 31
+  }
+]

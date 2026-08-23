@@ -1,0 +1,42 @@
+[
+  {
+    "player_id": 201,
+    "name": "old_low_red",
+    "kills": 100,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 45
+  },
+  {
+    "player_id": 202,
+    "name": "new_high_red",
+    "kills": 155,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 5
+  },
+  {
+    "player_id": 203,
+    "name": "old_low_blue",
+    "kills": 300,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 45
+  },
+  {
+    "player_id": 204,
+    "name": "new_high_blue",
+    "kills": 355,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 5
+  }
+]

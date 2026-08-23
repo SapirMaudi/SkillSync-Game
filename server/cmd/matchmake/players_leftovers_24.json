@@ -1,0 +1,242 @@
+[
+  {
+    "player_id": 1,
+    "name": "p01",
+    "kills": 18,
+    "deaths": 8,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 1,
+    "join_offset_seconds": 60
+  },
+  {
+    "player_id": 2,
+    "name": "p02",
+    "kills": 17,
+    "deaths": 9,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 1,
+    "join_offset_seconds": 58
+  },
+  {
+    "player_id": 3,
+    "name": "p03",
+    "kills": 28,
+    "deaths": 11,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 56
+  },
+  {
+    "player_id": 4,
+    "name": "p04",
+    "kills": 27,
+    "deaths": 12,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 54
+  },
+  {
+    "player_id": 5,
+    "name": "p05",
+    "kills": 40,
+    "deaths": 14,
+    "flag_captures": 2,
+    "wins": 7,
+    "losses": 3,
+    "join_offset_seconds": 50
+  },
+  {
+    "player_id": 6,
+    "name": "p06",
+    "kills": 39,
+    "deaths": 15,
+    "flag_captures": 2,
+    "wins": 7,
+    "losses": 3,
+    "join_offset_seconds": 48
+  },
+  {
+    "player_id": 7,
+    "name": "p07",
+    "kills": 52,
+    "deaths": 18,
+    "flag_captures": 2,
+    "wins": 9,
+    "losses": 4,
+    "join_offset_seconds": 46
+  },
+  {
+    "player_id": 8,
+    "name": "p08",
+    "kills": 51,
+    "deaths": 18,
+    "flag_captures": 2,
+    "wins": 9,
+    "losses": 4,
+    "join_offset_seconds": 44
+  },
+  {
+    "player_id": 9,
+    "name": "p09",
+    "kills": 66,
+    "deaths": 22,
+    "flag_captures": 3,
+    "wins": 10,
+    "losses": 5,
+    "join_offset_seconds": 42
+  },
+  {
+    "player_id": 10,
+    "name": "p10",
+    "kills": 65,
+    "deaths": 23,
+    "flag_captures": 3,
+    "wins": 10,
+    "losses": 5,
+    "join_offset_seconds": 40
+  },
+  {
+    "player_id": 11,
+    "name": "p11",
+    "kills": 78,
+    "deaths": 25,
+    "flag_captures": 3,
+    "wins": 12,
+    "losses": 6,
+    "join_offset_seconds": 38
+  },
+  {
+    "player_id": 12,
+    "name": "p12",
+    "kills": 77,
+    "deaths": 26,
+    "flag_captures": 3,
+    "wins": 12,
+    "losses": 6,
+    "join_offset_seconds": 36
+  },
+  {
+    "player_id": 13,
+    "name": "p13",
+    "kills": 90,
+    "deaths": 28,
+    "flag_captures": 3,
+    "wins": 14,
+    "losses": 7,
+    "join_offset_seconds": 34
+  },
+  {
+    "player_id": 14,
+    "name": "p14",
+    "kills": 89,
+    "deaths": 29,
+    "flag_captures": 3,
+    "wins": 14,
+    "losses": 7,
+    "join_offset_seconds": 32
+  },
+  {
+    "player_id": 15,
+    "name": "p15",
+    "kills": 104,
+    "deaths": 32,
+    "flag_captures": 4,
+    "wins": 16,
+    "losses": 8,
+    "join_offset_seconds": 30
+  },
+  {
+    "player_id": 16,
+    "name": "p16",
+    "kills": 103,
+    "deaths": 33,
+    "flag_captures": 4,
+    "wins": 16,
+    "losses": 8,
+    "join_offset_seconds": 28
+  },
+  {
+    "player_id": 17,
+    "name": "p17",
+    "kills": 120,
+    "deaths": 36,
+    "flag_captures": 4,
+    "wins": 18,
+    "losses": 9,
+    "join_offset_seconds": 22
+  },
+  {
+    "player_id": 18,
+    "name": "p18",
+    "kills": 119,
+    "deaths": 36,
+    "flag_captures": 4,
+    "wins": 18,
+    "losses": 9,
+    "join_offset_seconds": 20
+  },
+  {
+    "player_id": 19,
+    "name": "p19",
+    "kills": 150,
+    "deaths": 42,
+    "flag_captures": 4,
+    "wins": 20,
+    "losses": 10,
+    "join_offset_seconds": 18
+  },
+  {
+    "player_id": 20,
+    "name": "p20",
+    "kills": 149,
+    "deaths": 43,
+    "flag_captures": 4,
+    "wins": 20,
+    "losses": 10,
+    "join_offset_seconds": 16
+  },
+  {
+    "player_id": 21,
+    "name": "p21",
+    "kills": 4,
+    "deaths": 2,
+    "flag_captures": 0,
+    "wins": 1,
+    "losses": 0,
+    "join_offset_seconds": 12
+  },
+  {
+    "player_id": 22,
+    "name": "p22",
+    "kills": 7,
+    "deaths": 3,
+    "flag_captures": 0,
+    "wins": 1,
+    "losses": 0,
+    "join_offset_seconds": 10
+  },
+  {
+    "player_id": 23,
+    "name": "p23",
+    "kills": 220,
+    "deaths": 55,
+    "flag_captures": 5,
+    "wins": 24,
+    "losses": 12,
+    "join_offset_seconds": 6
+  },
+  {
+    "player_id": 24,
+    "name": "p24",
+    "kills": 260,
+    "deaths": 65,
+    "flag_captures": 6,
+    "wins": 28,
+    "losses": 14,
+    "join_offset_seconds": 0
+  }
+]

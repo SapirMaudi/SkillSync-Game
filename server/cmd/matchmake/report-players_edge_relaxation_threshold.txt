@@ -1,0 +1,48 @@
+MATCHMAKING REPORT
+==================
+
+Run time: 2026-07-10T10:05:15Z
+Input players: 4
+Matches formed: 1
+Unmatched teams: 0
+Unmatched solo players: 0
+
+ALGORITHM PARAMETERS
+--------------------
+Teammate uniformity max gap: 25.00
+Teammate uniformity hard gap: 60.00
+Relax after: 20s
+Match quality alpha: 0.70
+
+SIMULATION AVERAGES
+-------------------
+Matched pairs counted: 2
+Matches counted: 1
+Average pair gap: 55.00
+Average match quality: 171.11
+
+INPUT PLAYERS
+-------------
+- old_low_red (id=201) | skill=100.00 | join_offset_seconds=45 | stats: kills=100 deaths=0 flags=0 wins=0 losses=0
+- old_low_blue (id=203) | skill=300.00 | join_offset_seconds=45 | stats: kills=300 deaths=0 flags=0 wins=0 losses=0
+- new_high_red (id=202) | skill=155.00 | join_offset_seconds=5 | stats: kills=155 deaths=0 flags=0 wins=0 losses=0
+- new_high_blue (id=204) | skill=355.00 | join_offset_seconds=5 | stats: kills=355 deaths=0 flags=0 wins=0 losses=0
+
+MATCHES FORMED
+--------------
+Match 1
+  Team 1: [old_low_red (id=201, skill=100.00) + new_high_red (id=202, skill=155.00)] | team_skill=155.00
+  Team 2: [old_low_blue (id=203, skill=300.00) + new_high_blue (id=204, skill=355.00)] | team_skill=355.00
+  Team 1 pair gap: 55.00
+  Team 2 pair gap: 55.00
+  Fairness: 200.00
+  Match uniformity: 103.71
+  Quality: 171.11 (alpha=0.70)
+
+UNMATCHED TEAMS
+---------------
+No unmatched teams remain.
+
+LEFTOVER SOLO PLAYERS
+---------------------
+No leftover solo players remain.

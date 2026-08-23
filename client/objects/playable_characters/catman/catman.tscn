@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://qau5bkc4mssb"]
+
+[ext_resource type="Texture2D" uid="uid://whvqu1eplyk6" path="res://assets/characters/catman/animations/breathing-idle/south/frame_000.png" id="1_hpifp"]
+[ext_resource type="Texture2D" uid="uid://dtx8j77wk6upe" path="res://assets/characters/catman/animations/breathing-idle/south/frame_001.png" id="2_6eryh"]
+[ext_resource type="Texture2D" uid="uid://n2r7r3cygugs" path="res://assets/characters/catman/animations/breathing-idle/south/frame_002.png" id="3_4tv70"]
+[ext_resource type="Texture2D" uid="uid://bchedchtwk4bu" path="res://assets/characters/catman/animations/breathing-idle/south/frame_003.png" id="4_h4tmo"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hpifp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_hpifp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_6eryh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4tv70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_h4tmo")
+}],
+"loop": true,
+"name": &"idle_south",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6eryh"]
+radius = 5.0
+height = 22.0
+
+[node name="Catman" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_hpifp")
+animation = &"idle_south"
+autoplay = "idle_south"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_6eryh")

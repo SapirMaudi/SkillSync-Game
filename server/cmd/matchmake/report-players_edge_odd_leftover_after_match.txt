@@ -1,0 +1,51 @@
+MATCHMAKING REPORT
+==================
+
+Run time: 2026-07-10T10:02:24Z
+Input players: 5
+Matches formed: 1
+Unmatched teams: 0
+Unmatched solo players: 1
+
+ALGORITHM PARAMETERS
+--------------------
+Teammate uniformity max gap: 25.00
+Teammate uniformity hard gap: 60.00
+Relax after: 20s
+Match quality alpha: 0.70
+
+SIMULATION AVERAGES
+-------------------
+Matched pairs counted: 2
+Matches counted: 1
+Average pair gap: 2.50
+Average match quality: 43.28
+
+INPUT PLAYERS
+-------------
+- odd_pair1_a (id=401) | skill=50.00 | join_offset_seconds=35 | stats: kills=50 deaths=0 flags=0 wins=0 losses=0
+- odd_pair1_b (id=402) | skill=52.00 | join_offset_seconds=34 | stats: kills=52 deaths=0 flags=0 wins=0 losses=0
+- odd_pair2_a (id=403) | skill=100.00 | join_offset_seconds=33 | stats: kills=100 deaths=0 flags=0 wins=0 losses=0
+- odd_pair2_b (id=404) | skill=103.00 | join_offset_seconds=32 | stats: kills=103 deaths=0 flags=0 wins=0 losses=0
+- odd_leftover_high (id=405) | skill=500.00 | join_offset_seconds=31 | stats: kills=500 deaths=0 flags=0 wins=0 losses=0
+
+MATCHES FORMED
+--------------
+Match 1
+  Team 1: [odd_pair1_a (id=401, skill=50.00) + odd_pair1_b (id=402, skill=52.00)] | team_skill=52.00
+  Team 2: [odd_pair2_a (id=403, skill=100.00) + odd_pair2_b (id=404, skill=103.00)] | team_skill=103.00
+  Team 1 pair gap: 2.00
+  Team 2 pair gap: 3.00
+  Fairness: 51.00
+  Match uniformity: 25.28
+  Quality: 43.28 (alpha=0.70)
+
+UNMATCHED TEAMS
+---------------
+No unmatched teams remain.
+
+LEFTOVER SOLO PLAYERS
+---------------------
+Could not form a valid teammate pair under the current teammate-gap threshold
+  - odd_leftover_high (id=405) | skill=500.00 | join_time=2026-07-10T10:01:53Z | allowed_gap_now=60.00
+

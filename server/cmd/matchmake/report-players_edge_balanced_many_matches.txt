@@ -1,0 +1,87 @@
+MATCHMAKING REPORT
+==================
+
+Run time: 2026-07-10T09:57:59Z
+Input players: 16
+Matches formed: 4
+Unmatched teams: 0
+Unmatched solo players: 0
+
+ALGORITHM PARAMETERS
+--------------------
+Teammate uniformity max gap: 25.00
+Teammate uniformity hard gap: 60.00
+Relax after: 20s
+Match quality alpha: 0.70
+
+SIMULATION AVERAGES
+-------------------
+Matched pairs counted: 8
+Matches counted: 4
+Average pair gap: 0.00
+Average match quality: 0.85
+
+INPUT PLAYERS
+-------------
+- bal_100_a (id=101) | skill=100.00 | join_offset_seconds=40 | stats: kills=100 deaths=0 flags=0 wins=0 losses=0
+- bal_100_b (id=102) | skill=100.00 | join_offset_seconds=39 | stats: kills=100 deaths=0 flags=0 wins=0 losses=0
+- bal_101_a (id=103) | skill=101.00 | join_offset_seconds=38 | stats: kills=101 deaths=0 flags=0 wins=0 losses=0
+- bal_101_b (id=104) | skill=101.00 | join_offset_seconds=37 | stats: kills=101 deaths=0 flags=0 wins=0 losses=0
+- bal_200_a (id=105) | skill=200.00 | join_offset_seconds=36 | stats: kills=200 deaths=0 flags=0 wins=0 losses=0
+- bal_200_b (id=106) | skill=200.00 | join_offset_seconds=35 | stats: kills=200 deaths=0 flags=0 wins=0 losses=0
+- bal_201_a (id=107) | skill=201.00 | join_offset_seconds=34 | stats: kills=201 deaths=0 flags=0 wins=0 losses=0
+- bal_201_b (id=108) | skill=201.00 | join_offset_seconds=33 | stats: kills=201 deaths=0 flags=0 wins=0 losses=0
+- bal_300_a (id=109) | skill=300.00 | join_offset_seconds=32 | stats: kills=300 deaths=0 flags=0 wins=0 losses=0
+- bal_300_b (id=110) | skill=300.00 | join_offset_seconds=31 | stats: kills=300 deaths=0 flags=0 wins=0 losses=0
+- bal_301_a (id=111) | skill=301.00 | join_offset_seconds=30 | stats: kills=301 deaths=0 flags=0 wins=0 losses=0
+- bal_301_b (id=112) | skill=301.00 | join_offset_seconds=29 | stats: kills=301 deaths=0 flags=0 wins=0 losses=0
+- bal_400_a (id=113) | skill=400.00 | join_offset_seconds=28 | stats: kills=400 deaths=0 flags=0 wins=0 losses=0
+- bal_400_b (id=114) | skill=400.00 | join_offset_seconds=27 | stats: kills=400 deaths=0 flags=0 wins=0 losses=0
+- bal_401_a (id=115) | skill=401.00 | join_offset_seconds=26 | stats: kills=401 deaths=0 flags=0 wins=0 losses=0
+- bal_401_b (id=116) | skill=401.00 | join_offset_seconds=25 | stats: kills=401 deaths=0 flags=0 wins=0 losses=0
+
+MATCHES FORMED
+--------------
+Match 1
+  Team 1: [bal_100_a (id=101, skill=100.00) + bal_100_b (id=102, skill=100.00)] | team_skill=100.00
+  Team 2: [bal_101_a (id=103, skill=101.00) + bal_101_b (id=104, skill=101.00)] | team_skill=101.00
+  Team 1 pair gap: 0.00
+  Team 2 pair gap: 0.00
+  Fairness: 1.00
+  Match uniformity: 0.50
+  Quality: 0.85 (alpha=0.70)
+
+Match 2
+  Team 1: [bal_200_a (id=105, skill=200.00) + bal_200_b (id=106, skill=200.00)] | team_skill=200.00
+  Team 2: [bal_201_a (id=107, skill=201.00) + bal_201_b (id=108, skill=201.00)] | team_skill=201.00
+  Team 1 pair gap: 0.00
+  Team 2 pair gap: 0.00
+  Fairness: 1.00
+  Match uniformity: 0.50
+  Quality: 0.85 (alpha=0.70)
+
+Match 3
+  Team 1: [bal_300_a (id=109, skill=300.00) + bal_300_b (id=110, skill=300.00)] | team_skill=300.00
+  Team 2: [bal_301_a (id=111, skill=301.00) + bal_301_b (id=112, skill=301.00)] | team_skill=301.00
+  Team 1 pair gap: 0.00
+  Team 2 pair gap: 0.00
+  Fairness: 1.00
+  Match uniformity: 0.50
+  Quality: 0.85 (alpha=0.70)
+
+Match 4
+  Team 1: [bal_400_a (id=113, skill=400.00) + bal_400_b (id=114, skill=400.00)] | team_skill=400.00
+  Team 2: [bal_401_a (id=115, skill=401.00) + bal_401_b (id=116, skill=401.00)] | team_skill=401.00
+  Team 1 pair gap: 0.00
+  Team 2 pair gap: 0.00
+  Fairness: 1.00
+  Match uniformity: 0.50
+  Quality: 0.85 (alpha=0.70)
+
+UNMATCHED TEAMS
+---------------
+No unmatched teams remain.
+
+LEFTOVER SOLO PLAYERS
+---------------------
+No leftover solo players remain.

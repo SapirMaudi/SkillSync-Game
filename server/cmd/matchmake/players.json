@@ -1,0 +1,42 @@
+[
+  {
+    "player_id": 1,
+    "name": "dor",
+    "kills": 800,
+    "deaths": 10,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 46
+  },
+  {
+    "player_id": 2,
+    "name": "sapir",
+    "kills": 800,
+    "deaths": 11,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 44
+  },
+  {
+    "player_id": 3,
+    "name": "noam",
+    "kills": 5,
+    "deaths": 12,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 3,
+    "join_offset_seconds": 42
+  },
+  {
+    "player_id": 4,
+    "name": "lior",
+    "kills": 5,
+    "deaths": 12,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 3,
+    "join_offset_seconds": 40
+  }
+]

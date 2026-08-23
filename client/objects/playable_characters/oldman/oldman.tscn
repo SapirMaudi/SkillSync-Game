@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://qrr527qh3inr"]
+
+[ext_resource type="Texture2D" uid="uid://m6yl1ggo5vf6" path="res://assets/characters/oldman/animations/breathing-idle/south/frame_000.png" id="1_cm3jo"]
+[ext_resource type="Texture2D" uid="uid://d1p1t5ujs7rs8" path="res://assets/characters/oldman/animations/breathing-idle/south/frame_001.png" id="2_1o1j7"]
+[ext_resource type="Texture2D" uid="uid://bjdtb1yr8lfma" path="res://assets/characters/oldman/animations/breathing-idle/south/frame_002.png" id="3_ttde2"]
+[ext_resource type="Texture2D" uid="uid://dviwwnl7pkys8" path="res://assets/characters/oldman/animations/breathing-idle/south/frame_003.png" id="4_a0h3x"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_irlw3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cm3jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_1o1j7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ttde2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_a0h3x")
+}],
+"loop": true,
+"name": &"idle_south",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_twr6y"]
+radius = 5.0
+height = 22.0
+
+[node name="Oldman" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_irlw3")
+animation = &"idle_south"
+autoplay = "idle_south"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_twr6y")

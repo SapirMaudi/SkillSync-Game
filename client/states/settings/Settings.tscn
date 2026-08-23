@@ -1,0 +1,77 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmaggdw8iubns"]
+
+[ext_resource type="Script" uid="uid://d1e8erx1q012w" path="res://states/settings/settings.gd" id="1_3id27"]
+[ext_resource type="PackedScene" uid="uid://qau5bkc4mssb" path="res://objects/playable_characters/catman/catman.tscn" id="2_glqbm"]
+[ext_resource type="PackedScene" uid="uid://qrr527qh3inr" path="res://objects/playable_characters/oldman/oldman.tscn" id="3_rexip"]
+
+[node name="Settings" type="Node"]
+script = ExtResource("1_3id27")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI"]
+custom_minimum_size = Vector2(800, 0)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="UI/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="UI/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+text = "Settings"
+
+[node name="SPAN1" type="HBoxContainer" parent="UI/VBoxContainer"]
+custom_minimum_size = Vector2(0, 150)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="ButtonLeft" type="Button" parent="UI/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "<-"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+
+[node name="Catman" parent="UI/VBoxContainer/HBoxContainer/HBoxContainer" instance=ExtResource("2_glqbm")]
+position = Vector2(47, 48)
+scale = Vector2(3, 3)
+
+[node name="Oldman" parent="UI/VBoxContainer/HBoxContainer/HBoxContainer" instance=ExtResource("3_rexip")]
+position = Vector2(48, 48)
+scale = Vector2(3, 3)
+
+[node name="ButtonRight" type="Button" parent="UI/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "->"
+
+[node name="SPAN2" type="HBoxContainer" parent="UI/VBoxContainer"]
+custom_minimum_size = Vector2(0, 150)
+layout_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="UI/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SaveButton" type="Button" parent="UI/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+text = "Save"

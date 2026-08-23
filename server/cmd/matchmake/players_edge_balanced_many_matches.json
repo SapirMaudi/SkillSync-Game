@@ -1,0 +1,162 @@
+[
+  {
+    "player_id": 101,
+    "name": "bal_100_a",
+    "kills": 100,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 40
+  },
+  {
+    "player_id": 102,
+    "name": "bal_100_b",
+    "kills": 100,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 39
+  },
+  {
+    "player_id": 103,
+    "name": "bal_101_a",
+    "kills": 101,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 38
+  },
+  {
+    "player_id": 104,
+    "name": "bal_101_b",
+    "kills": 101,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 37
+  },
+  {
+    "player_id": 105,
+    "name": "bal_200_a",
+    "kills": 200,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 36
+  },
+  {
+    "player_id": 106,
+    "name": "bal_200_b",
+    "kills": 200,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 35
+  },
+  {
+    "player_id": 107,
+    "name": "bal_201_a",
+    "kills": 201,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 34
+  },
+  {
+    "player_id": 108,
+    "name": "bal_201_b",
+    "kills": 201,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 33
+  },
+  {
+    "player_id": 109,
+    "name": "bal_300_a",
+    "kills": 300,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 32
+  },
+  {
+    "player_id": 110,
+    "name": "bal_300_b",
+    "kills": 300,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 31
+  },
+  {
+    "player_id": 111,
+    "name": "bal_301_a",
+    "kills": 301,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 30
+  },
+  {
+    "player_id": 112,
+    "name": "bal_301_b",
+    "kills": 301,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 29
+  },
+  {
+    "player_id": 113,
+    "name": "bal_400_a",
+    "kills": 400,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 28
+  },
+  {
+    "player_id": 114,
+    "name": "bal_400_b",
+    "kills": 400,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 27
+  },
+  {
+    "player_id": 115,
+    "name": "bal_401_a",
+    "kills": 401,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 26
+  },
+  {
+    "player_id": 116,
+    "name": "bal_401_b",
+    "kills": 401,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 25
+  }
+]

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqemyegbl8dm1"]
+
+[ext_resource type="Script" uid="uid://j22s314pk4mi" path="res://classes/log/log.gd" id="1_cs1qp"]
+
+[node name="Log" type="RichTextLabel"]
+script = ExtResource("1_cs1qp")

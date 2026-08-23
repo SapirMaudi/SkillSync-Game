@@ -1,0 +1,242 @@
+[
+  {
+    "player_id": 1,
+    "name": "relax_01",
+    "kills": 20,
+    "deaths": 8,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 1,
+    "join_offset_seconds": 80
+  },
+  {
+    "player_id": 2,
+    "name": "relax_02",
+    "kills": 45,
+    "deaths": 10,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 1,
+    "join_offset_seconds": 80
+  },
+  {
+    "player_id": 3,
+    "name": "relax_03",
+    "kills": 55,
+    "deaths": 12,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 78
+  },
+  {
+    "player_id": 4,
+    "name": "relax_04",
+    "kills": 88,
+    "deaths": 14,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 78
+  },
+  {
+    "player_id": 5,
+    "name": "relax_05",
+    "kills": 95,
+    "deaths": 18,
+    "flag_captures": 2,
+    "wins": 8,
+    "losses": 4,
+    "join_offset_seconds": 76
+  },
+  {
+    "player_id": 6,
+    "name": "relax_06",
+    "kills": 130,
+    "deaths": 20,
+    "flag_captures": 2,
+    "wins": 8,
+    "losses": 4,
+    "join_offset_seconds": 76
+  },
+  {
+    "player_id": 7,
+    "name": "relax_07",
+    "kills": 140,
+    "deaths": 22,
+    "flag_captures": 3,
+    "wins": 10,
+    "losses": 5,
+    "join_offset_seconds": 74
+  },
+  {
+    "player_id": 8,
+    "name": "relax_08",
+    "kills": 178,
+    "deaths": 24,
+    "flag_captures": 3,
+    "wins": 10,
+    "losses": 5,
+    "join_offset_seconds": 74
+  },
+  {
+    "player_id": 9,
+    "name": "relax_09",
+    "kills": 30,
+    "deaths": 9,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 1,
+    "join_offset_seconds": 30
+  },
+  {
+    "player_id": 10,
+    "name": "relax_10",
+    "kills": 58,
+    "deaths": 11,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 1,
+    "join_offset_seconds": 30
+  },
+  {
+    "player_id": 11,
+    "name": "relax_11",
+    "kills": 70,
+    "deaths": 14,
+    "flag_captures": 2,
+    "wins": 6,
+    "losses": 2,
+    "join_offset_seconds": 28
+  },
+  {
+    "player_id": 12,
+    "name": "relax_12",
+    "kills": 101,
+    "deaths": 16,
+    "flag_captures": 2,
+    "wins": 6,
+    "losses": 2,
+    "join_offset_seconds": 28
+  },
+  {
+    "player_id": 13,
+    "name": "relax_13",
+    "kills": 112,
+    "deaths": 19,
+    "flag_captures": 2,
+    "wins": 8,
+    "losses": 4,
+    "join_offset_seconds": 26
+  },
+  {
+    "player_id": 14,
+    "name": "relax_14",
+    "kills": 145,
+    "deaths": 21,
+    "flag_captures": 2,
+    "wins": 8,
+    "losses": 4,
+    "join_offset_seconds": 26
+  },
+  {
+    "player_id": 15,
+    "name": "relax_15",
+    "kills": 160,
+    "deaths": 25,
+    "flag_captures": 3,
+    "wins": 10,
+    "losses": 5,
+    "join_offset_seconds": 24
+  },
+  {
+    "player_id": 16,
+    "name": "relax_16",
+    "kills": 198,
+    "deaths": 27,
+    "flag_captures": 3,
+    "wins": 10,
+    "losses": 5,
+    "join_offset_seconds": 24
+  },
+  {
+    "player_id": 17,
+    "name": "relax_17",
+    "kills": 22,
+    "deaths": 8,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 1,
+    "join_offset_seconds": 8
+  },
+  {
+    "player_id": 18,
+    "name": "relax_18",
+    "kills": 21,
+    "deaths": 9,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 1,
+    "join_offset_seconds": 7
+  },
+  {
+    "player_id": 19,
+    "name": "relax_19",
+    "kills": 49,
+    "deaths": 13,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 6
+  },
+  {
+    "player_id": 20,
+    "name": "relax_20",
+    "kills": 48,
+    "deaths": 14,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 5
+  },
+  {
+    "player_id": 21,
+    "name": "relax_21",
+    "kills": 82,
+    "deaths": 17,
+    "flag_captures": 2,
+    "wins": 7,
+    "losses": 3,
+    "join_offset_seconds": 4
+  },
+  {
+    "player_id": 22,
+    "name": "relax_22",
+    "kills": 81,
+    "deaths": 18,
+    "flag_captures": 2,
+    "wins": 7,
+    "losses": 3,
+    "join_offset_seconds": 3
+  },
+  {
+    "player_id": 23,
+    "name": "relax_23",
+    "kills": 118,
+    "deaths": 22,
+    "flag_captures": 3,
+    "wins": 9,
+    "losses": 4,
+    "join_offset_seconds": 2
+  },
+  {
+    "player_id": 24,
+    "name": "relax_24",
+    "kills": 117,
+    "deaths": 23,
+    "flag_captures": 3,
+    "wins": 9,
+    "losses": 4,
+    "join_offset_seconds": 1
+  }
+]

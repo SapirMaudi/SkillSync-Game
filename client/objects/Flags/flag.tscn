@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://d0fsry347764j"]
+
+[ext_resource type="Texture2D" uid="uid://cuw1lx8w8e57r" path="res://assets/flags/red-flag.png" id="1_1v4bt"]
+[ext_resource type="Script" uid="uid://c7ou401go3eic" path="res://objects/Flags/flag.gd" id="1_jismt"]
+[ext_resource type="Texture2D" uid="uid://cgn7yjkld2a2r" path="res://assets/flags/blue-flag.png" id="2_jismt"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hbcp7"]
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_jismt")
+
+[node name="RedFlag" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("1_1v4bt")
+
+[node name="BlueFlag" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_jismt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.9999998, 1.0000005)
+scale = Vector2(0.8, 0.8)
+shape = SubResource("CapsuleShape2D_hbcp7")

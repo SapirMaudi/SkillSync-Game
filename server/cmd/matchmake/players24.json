@@ -1,0 +1,242 @@
+[
+  {
+    "player_id": 1,
+    "name": "dor",
+    "kills": 20,
+    "deaths": 10,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 46
+  },
+  {
+    "player_id": 2,
+    "name": "sapir",
+    "kills": 19,
+    "deaths": 11,
+    "flag_captures": 2,
+    "wins": 5,
+    "losses": 2,
+    "join_offset_seconds": 44
+  },
+  {
+    "player_id": 3,
+    "name": "noam",
+    "kills": 25,
+    "deaths": 12,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 3,
+    "join_offset_seconds": 42
+  },
+  {
+    "player_id": 4,
+    "name": "lior",
+    "kills": 24,
+    "deaths": 12,
+    "flag_captures": 1,
+    "wins": 4,
+    "losses": 3,
+    "join_offset_seconds": 40
+  },
+  {
+    "player_id": 5,
+    "name": "eden",
+    "kills": 32,
+    "deaths": 14,
+    "flag_captures": 3,
+    "wins": 6,
+    "losses": 2,
+    "join_offset_seconds": 38
+  },
+  {
+    "player_id": 6,
+    "name": "yael",
+    "kills": 30,
+    "deaths": 15,
+    "flag_captures": 3,
+    "wins": 6,
+    "losses": 2,
+    "join_offset_seconds": 36
+  },
+  {
+    "player_id": 7,
+    "name": "omer",
+    "kills": 39,
+    "deaths": 16,
+    "flag_captures": 2,
+    "wins": 7,
+    "losses": 3,
+    "join_offset_seconds": 34
+  },
+  {
+    "player_id": 8,
+    "name": "maya",
+    "kills": 38,
+    "deaths": 17,
+    "flag_captures": 2,
+    "wins": 7,
+    "losses": 3,
+    "join_offset_seconds": 32
+  },
+  {
+    "player_id": 9,
+    "name": "avi",
+    "kills": 48,
+    "deaths": 18,
+    "flag_captures": 2,
+    "wins": 8,
+    "losses": 4,
+    "join_offset_seconds": 30
+  },
+  {
+    "player_id": 10,
+    "name": "tamar",
+    "kills": 47,
+    "deaths": 19,
+    "flag_captures": 2,
+    "wins": 8,
+    "losses": 4,
+    "join_offset_seconds": 28
+  },
+  {
+    "player_id": 11,
+    "name": "itai",
+    "kills": 54,
+    "deaths": 20,
+    "flag_captures": 1,
+    "wins": 9,
+    "losses": 4,
+    "join_offset_seconds": 26
+  },
+  {
+    "player_id": 12,
+    "name": "neta",
+    "kills": 53,
+    "deaths": 21,
+    "flag_captures": 1,
+    "wins": 9,
+    "losses": 4,
+    "join_offset_seconds": 24
+  },
+  {
+    "player_id": 13,
+    "name": "ron",
+    "kills": 60,
+    "deaths": 22,
+    "flag_captures": 2,
+    "wins": 10,
+    "losses": 5,
+    "join_offset_seconds": 22
+  },
+  {
+    "player_id": 14,
+    "name": "shir",
+    "kills": 59,
+    "deaths": 22,
+    "flag_captures": 2,
+    "wins": 10,
+    "losses": 5,
+    "join_offset_seconds": 20
+  },
+  {
+    "player_id": 15,
+    "name": "gal",
+    "kills": 68,
+    "deaths": 24,
+    "flag_captures": 3,
+    "wins": 11,
+    "losses": 5,
+    "join_offset_seconds": 18
+  },
+  {
+    "player_id": 16,
+    "name": "dana",
+    "kills": 67,
+    "deaths": 25,
+    "flag_captures": 3,
+    "wins": 11,
+    "losses": 5,
+    "join_offset_seconds": 16
+  },
+  {
+    "player_id": 17,
+    "name": "yuval",
+    "kills": 72,
+    "deaths": 25,
+    "flag_captures": 2,
+    "wins": 12,
+    "losses": 6,
+    "join_offset_seconds": 14
+  },
+  {
+    "player_id": 18,
+    "name": "adi",
+    "kills": 71,
+    "deaths": 25,
+    "flag_captures": 2,
+    "wins": 12,
+    "losses": 6,
+    "join_offset_seconds": 12
+  },
+  {
+    "player_id": 19,
+    "name": "bar",
+    "kills": 84,
+    "deaths": 28,
+    "flag_captures": 1,
+    "wins": 13,
+    "losses": 6,
+    "join_offset_seconds": 10
+  },
+  {
+    "player_id": 20,
+    "name": "michal",
+    "kills": 83,
+    "deaths": 29,
+    "flag_captures": 1,
+    "wins": 13,
+    "losses": 6,
+    "join_offset_seconds": 8
+  },
+  {
+    "player_id": 21,
+    "name": "or",
+    "kills": 92,
+    "deaths": 30,
+    "flag_captures": 2,
+    "wins": 14,
+    "losses": 7,
+    "join_offset_seconds": 6
+  },
+  {
+    "player_id": 22,
+    "name": "hila",
+    "kills": 91,
+    "deaths": 31,
+    "flag_captures": 2,
+    "wins": 14,
+    "losses": 7,
+    "join_offset_seconds": 4
+  },
+  {
+    "player_id": 23,
+    "name": "idan",
+    "kills": 100,
+    "deaths": 32,
+    "flag_captures": 2,
+    "wins": 15,
+    "losses": 7,
+    "join_offset_seconds": 2
+  },
+  {
+    "player_id": 24,
+    "name": "alma",
+    "kills": 99,
+    "deaths": 33,
+    "flag_captures": 2,
+    "wins": 15,
+    "losses": 7,
+    "join_offset_seconds": 0
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "player_id": 301,
+    "name": "gap_000",
+    "kills": 0,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 5
+  },
+  {
+    "player_id": 302,
+    "name": "gap_100",
+    "kills": 100,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 5
+  },
+  {
+    "player_id": 303,
+    "name": "gap_200",
+    "kills": 200,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 5
+  },
+  {
+    "player_id": 304,
+    "name": "gap_300",
+    "kills": 300,
+    "deaths": 0,
+    "flag_captures": 0,
+    "wins": 0,
+    "losses": 0,
+    "join_offset_seconds": 5
+  }
+]

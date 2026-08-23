@@ -1,0 +1,304 @@
+syntax = "proto3";
+
+package packets;
+option go_package = "pkg/packets";
+
+message ChatMessage { string msg = 1; }
+message IdMessage { uint64 id = 1; }
+message LoginRequestMessage { string email = 1; string password = 2; }
+message RegisterRequestMessage { string nickname = 1; string email = 2; string password = 3; }
+message OkResponseMessage { }
+message ErrorResponseMessage { string reason = 1; }
+
+message RequestGeneralInfoMessage { string info = 1; }
+
+message ResponseUserStatsMessage {
+    uint64 kills = 1;
+    uint64 deaths = 2;
+    uint64 wins = 3;
+    uint64 losses = 4;
+    uint64 flags_captured = 5;
+}
+
+message ResponseUserNameMessage { string nickname = 1; }
+message ResponseUserSkinMessage { uint64 skin_id = 1; }
+message RequestUpdateUserSkinMessage { uint64 skin_id = 1; }
+
+message RequestEnterQueueMessage { }
+message RequestLeaveQueueMessage { }
+
+message QueueJoinedMessage {
+    uint32 position = 1;
+    uint32 size = 2;
+}
+
+message QueueLeftMessage { }
+
+message MatchFoundMessage {
+    uint64 game_id = 1;
+    uint32 team = 2;
+    repeated uint64 team_ids = 3;
+    repeated uint64 enemy_ids = 4;
+}
+
+message SpawnPlayerMessage {
+    uint64 game_id = 1;
+    uint64 player_id = 2;
+    uint32 team = 3;
+    uint32 slot = 4;
+    float x = 5;
+    float y = 6;
+    string nickname = 7;
+    uint64 skin_id = 8;
+    uint32 current_hp = 9;
+    uint32 max_hp = 10;
+    float aim_x = 11;
+    float aim_y = 12;
+}
+
+message DespawnPlayerMessage {
+    uint64 game_id = 1;
+    uint64 player_id = 2;
+}
+
+message MovementInputMessage {
+    uint64 game_id = 1;
+    float x = 2;
+    float y = 3;
+}
+
+message PlayerMovedMessage {
+    uint64 game_id = 1;
+    uint64 player_id = 2;
+    float x = 3;
+    float y = 4;
+}
+
+message PlayerHealthUpdatedMessage {
+    uint64 game_id = 1;
+    uint64 player_id = 2;
+    uint32 current_hp = 3;
+    uint32 max_hp = 4;
+}
+
+// Flag status:
+// 0 = at base
+// 1 = carried
+// 2 = dropped
+message SpawnFlagMessage {
+    uint64 game_id = 1;
+    uint32 team = 2;
+    float x = 3;
+    float y = 4;
+    uint32 status = 5;
+    uint64 carrier_player_id = 6;
+}
+
+message FlagStateUpdatedMessage {
+    uint64 game_id = 1;
+    uint32 team = 2;
+    float x = 3;
+    float y = 4;
+    uint32 status = 5;
+    uint64 carrier_player_id = 6;
+}
+
+message ScoreUpdatedMessage {
+    uint64 game_id = 1;
+    uint32 red_score = 2;
+    uint32 blue_score = 3;
+}
+
+message GameTimeUpdatedMessage {
+    uint64 game_id = 1;
+    uint32 remaining_seconds = 2;
+    uint32 duration_seconds = 3;
+    bool is_running = 4;
+}
+
+message AimInputMessage {
+    uint64 game_id = 1;
+    float aim_x = 2;
+    float aim_y = 3;
+}
+
+message PlayerAimUpdatedMessage {
+    uint64 game_id = 1;
+    uint64 player_id = 2;
+    float aim_x = 3;
+    float aim_y = 4;
+}
+
+message ShootRequestMessage {
+    uint64 game_id = 1;
+    float aim_x = 2;
+    float aim_y = 3;
+}
+
+message BulletSpawnedMessage {
+    uint64 game_id = 1;
+    uint64 bullet_id = 2;
+    uint64 owner_player_id = 3;
+    float x = 4;
+    float y = 5;
+    float dir_x = 6;
+    float dir_y = 7;
+    float speed_tiles_per_second = 8;
+    float lifetime_seconds = 9;
+}
+
+message BulletHitMessage {
+    uint64 game_id = 1;
+    uint64 bullet_id = 2;
+    uint64 owner_player_id = 3;
+    uint64 victim_player_id = 4;
+    uint32 damage = 5;
+    uint32 current_hp = 6;
+    uint32 max_hp = 7;
+    float x = 8;
+    float y = 9;
+}
+
+// Skill ids:
+// 1 = haste
+// 2 = heal
+// 3 = molotov
+message SkillRequestMessage {
+    uint64 game_id = 1;
+    uint32 skill_id = 2;
+    float target_x = 3;
+    float target_y = 4;
+}
+
+message SkillActivatedMessage {
+    uint64 game_id = 1;
+    uint64 player_id = 2;
+    uint32 skill_id = 3;
+    uint32 active_ms = 4;
+    uint32 cooldown_ms = 5;
+    float target_x = 6;
+    float target_y = 7;
+}
+
+message PlayerHealedMessage {
+    uint64 game_id = 1;
+    uint64 healer_player_id = 2;
+    uint64 target_player_id = 3;
+    uint32 amount = 4;
+    uint32 current_hp = 5;
+    uint32 max_hp = 6;
+    float x = 7;
+    float y = 8;
+}
+
+message MolotovSpawnedMessage {
+    uint64 game_id = 1;
+    uint64 molotov_id = 2;
+    uint64 owner_player_id = 3;
+    float x = 4;
+    float y = 5;
+    float radius_tiles = 6;
+    float duration_seconds = 7;
+}
+
+message SkillDamageMessage {
+    uint64 game_id = 1;
+    uint32 skill_id = 2;
+    uint64 source_player_id = 3;
+    uint64 victim_player_id = 4;
+    uint32 damage = 5;
+    uint32 current_hp = 6;
+    uint32 max_hp = 7;
+    float x = 8;
+    float y = 9;
+}
+
+message PlayerDiedMessage {
+    uint64 game_id = 1;
+    uint64 player_id = 2;
+    uint32 respawn_seconds = 3;
+}
+
+message PlayerRespawnedMessage {
+    uint64 game_id = 1;
+    uint64 player_id = 2;
+    float x = 3;
+    float y = 4;
+    uint32 current_hp = 5;
+    uint32 max_hp = 6;
+}
+
+message MatchPlayerResultMessage {
+    uint64 player_id = 1;
+    string nickname = 2;
+    uint32 team = 3;
+    uint32 kills = 4;
+    uint32 deaths = 5;
+    uint32 captures = 6;
+    bool won = 7;
+    bool lost = 8;
+}
+
+message MatchEndedMessage {
+    uint64 game_id = 1;
+    uint32 red_score = 2;
+    uint32 blue_score = 3;
+    uint32 winning_team = 4; // 0 = tie, 1 = red, 2 = blue
+    string reason = 5;      // "time" or "score"
+    repeated MatchPlayerResultMessage results = 6;
+}
+
+message RequestReturnToLobbyMessage { }
+
+message Packet {
+    uint64 sender_id = 1;
+
+    oneof msg {
+        ChatMessage chat = 2;
+        IdMessage id = 3;
+        LoginRequestMessage login_request = 4;
+        RegisterRequestMessage register_request = 5;
+        OkResponseMessage ok_response = 6;
+        ErrorResponseMessage error_response = 7;
+        RequestGeneralInfoMessage request_general_info = 8;
+        ResponseUserStatsMessage response_user_stats = 9;
+        ResponseUserNameMessage response_user_name = 10;
+        ResponseUserSkinMessage response_user_skin = 11;
+        RequestUpdateUserSkinMessage request_update_user_skin = 12;
+        RequestEnterQueueMessage request_enter_queue = 13;
+        RequestLeaveQueueMessage request_leave_queue = 14;
+        QueueJoinedMessage queue_joined = 15;
+        QueueLeftMessage queue_left = 16;
+        MatchFoundMessage match_found = 17;
+
+        SpawnPlayerMessage spawn_player = 18;
+        DespawnPlayerMessage despawn_player = 19;
+        MovementInputMessage movement_input = 20;
+        PlayerMovedMessage player_moved = 21;
+
+        PlayerHealthUpdatedMessage player_health_updated = 22;
+
+        SpawnFlagMessage spawn_flag = 23;
+        FlagStateUpdatedMessage flag_state_updated = 24;
+        ScoreUpdatedMessage score_updated = 25;
+        GameTimeUpdatedMessage game_time_updated = 26;
+
+        AimInputMessage aim_input = 27;
+        PlayerAimUpdatedMessage player_aim_updated = 28;
+        ShootRequestMessage shoot_request = 29;
+        BulletSpawnedMessage bullet_spawned = 30;
+        BulletHitMessage bullet_hit = 31;
+
+        SkillRequestMessage skill_request = 32;
+        SkillActivatedMessage skill_activated = 33;
+        PlayerHealedMessage player_healed = 34;
+        MolotovSpawnedMessage molotov_spawned = 35;
+        SkillDamageMessage skill_damage = 36;
+
+        PlayerDiedMessage player_died = 37;
+        PlayerRespawnedMessage player_respawned = 38;
+
+        MatchEndedMessage match_ended = 39;
+        RequestReturnToLobbyMessage request_return_to_lobby = 40;
+    }
+}
